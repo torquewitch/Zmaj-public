@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZMAJ Studio</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+    }
+  </style>
 </head>
-<body>
-  <main class="container">
-    <h1>ZMAJ</h1>
-    <p class="tagline">Made with softness. Backed by fire.</p>
-    <p class="coming-soon">ZMAJ is coming soon.</p>
+<body class="bg-[#2B1F1A] text-[#F3E8D5]">
+  <main class="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+    <h1 class="text-6xl md:text-8xl font-bold text-[#C65D1F] mb-4">ZMAJ</h1>
+    <p class="text-2xl md:text-3xl mb-6">Made with softness. Backed by fire.</p>
+    <p class="text-lg md:text-xl text-[#B58E3C]">ZMAJ is coming soon.</p>
   </main>
 </body>
 </html>
