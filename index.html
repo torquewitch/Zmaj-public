@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="description" content="ZMAJ Studio: Create like you mean it. Books, tools, and stories with teeth." />
+  <meta name="author" content="ZMAJ Studio" />
+  <meta name="keywords" content="ZMAJ, creative studio, coloring books, fiction, technical illustration, creative tools" />
+  <meta property="og:title" content="ZMAJ Studio" />
+  <meta property="og:description" content="Create like you mean it. Books, tools, and stories with teeth." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zmaj.us" />
+  <meta property="og:image" content="https://zmaj.us/Logo.png" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZMAJ Studio</title>
@@ -15,7 +24,7 @@
 <body class="bg-[#2B1F1A] text-[#F3E8D5]">
   <main class="flex flex-col items-center">
   <!-- HERO SECTION -->
-  <header class="text-center px-6 pt-16 pb-10">
+  <header class="text-center px-6 pt-10 pb-2">
     <div class="flex justify-center mb-4">
       <img src="Logo.png" alt="Zmaj Logo" class="w-16 h-16 md:w-20 md:h-20" />
     </div>
@@ -25,7 +34,7 @@
   </header>
 
   <!-- ABOUT SECTION -->
-  <section class="bg-[#2B1F1A] px-6 py-12 max-w-4xl mx-auto text-center">
+  <section class="bg-[#2B1F1A] px-6 pt-2 pb-4 max-w-4xl mx-auto text-center">
     <p class="text-xl md:text-2xl text-[#F3E8D5] leading-relaxed space-y-2">
       We make books, tools, and stories with teeth.<br />
       Built with fire, not fluff. Work that leaves a mark.<br />
@@ -34,14 +43,18 @@
   </section>
   </main>
 
+  <div class="flex justify-center my-6">
+  <hr class="border-[#817A69] opacity-40 w-48" />
+</div>
+
   <!-- FEATURED RELEASE SECTION -->
-<section class="bg-[#2B1F1A] px-6 py-16 max-w-6xl mx-auto">
+<section class="bg-[#2B1F1A] px-6 pt-6 pb-10 max-w-6xl mx-auto">
   <h3 class="text-center text-2xl md:text-4xl text-[#F2B134] font-semibold tracking-wide uppercase mb-10">Featured Release</h3>
   <div class="flex justify-center">
     <div class="flex flex-col md:flex-row items-start gap-1 md:gap-2 max-w-4xl">
       <!-- Book Image Placeholder -->
-      <div class="w-1/2 md:w-2/5 flex justify-end md:pr-2 self-start">
-        <img src="Seasons - cover.png" alt="Seasons Across the Continents Book Cover" class="w-full max-w-[180px] object-contain shadow-lg" />
+      <div class="w-1/2 md:w-2/5 flex justify-end md:pr-2 self-start pt-4">
+        <img src="Seasons - cover.png" alt="Seasons Across the Continents Book Cover" class="max-h-[300px] object-contain shadow-lg" />
       </div>
       <!-- Book Description -->
       <div class="flex-1 text-center md:text-left max-w-sm">
@@ -59,6 +72,23 @@
   </div>
 </section>
 
+<div class="flex justify-center mt-2 mb-8">
+  <hr class="border-[#817A69] opacity-40 w-48" />
+</div>
+
+<!-- NEWSLETTER SIGN-UP SECTION -->
+<section class="bg-[#2B1F1A] px-6 pt-0 pb-6 max-w-4xl mx-auto text-center">
+  <p class="text-xl md:text-2xl text-[#F3E8D5] mb-4 leading-relaxed">
+    Be the first to see what we make next.<br />
+    New drops, rare finds, and sharp stories.<br />
+    Sent only when it matters.
+  </p>
+  <form$1class="mt-6 flex flex-col gap-4 items-center justify-center sm:grid sm:grid-cols-3 sm:gap-4 max-w-xl mx-auto">
+    <input type="text" name="name" aria-label="Name" placeholder="name" required class="w-full sm:w-64 px-6 py-3 rounded-full border border-[#817A69] bg-transparent text-[#F3E8D5] placeholder-[#817A69] focus:outline-none focus:ring-2 focus:ring-[#F2B134]" />
+    <input type="email" name="email" aria-label="Email address" placeholder="email" required class="w-full sm:w-64 px-6 py-3 rounded-full border border-[#817A69] bg-transparent text-[#F3E8D5] placeholder-[#817A69] focus:outline-none focus:ring-2 focus:ring-[#F2B134]" />
+    <input type="submit" value="SEND THE FIRE" class="px-6 py-3 rounded-full border border-[#F2B134] text-[#D87828] font-semibold tracking-wide uppercase bg-transparent hover:bg-[#D87828] hover:text-[#2B1F1A] transition" />
+  </form>
+</section>
 
 </body>
 </html>
